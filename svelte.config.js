@@ -18,8 +18,11 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true
-		})
+		}),
+		prerender: {
+            default: true,
+        },
+        trailingSlash: 'always',
 	
 	},
 	paths: {
