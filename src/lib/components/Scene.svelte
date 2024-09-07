@@ -51,7 +51,6 @@
     ]);
     scene.background = cubemap;
   })
-
 </script>
 
 <T.PerspectiveCamera
