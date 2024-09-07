@@ -22,7 +22,9 @@ const config = {
 		})
 	
 	},
-
+	paths: {
+		base: process.argv.includes('dev') ? '' : '/holographic-solly'
+	}
 
 };
 
