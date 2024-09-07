@@ -10,7 +10,7 @@ Command: npx @threlte/gltf@2.0.3 ../../../../static/models/solly.glb
 
   export let ref = new Group();
 
-  const gltf = useGltf('./models/solly.glb')
+  const gltf = useGltf('./models/solly.glb',{useDraco: true})
 
   export let material;
 
