@@ -10,10 +10,8 @@
 	import HologramProjector from './models/HologramProjector.svelte';
 	import Solly from './models/Solly.svelte';
 
-
   const { scene} = useThrelte();
   const materialParameters = {color: '#00c995'};
-
 
   const clock = new Clock();
 
